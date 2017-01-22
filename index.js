@@ -130,7 +130,7 @@ module.exports = function (options, wp, done) {
 
     var compiler = webpack(config, function (err, stats) {
       if (err) {
-        self.emit('error', new gutil.PluginError('webpack-stream', err));
+        console.log(err);
       }
       var jsonStats = stats.toJson() || {};
       var errors = jsonStats.errors || [];
@@ -139,7 +139,7 @@ module.exports = function (options, wp, done) {
           resultMessage += nextError.toString();
           return resultMessage;
         }, '');
-        self.emit('error', new gutil.PluginError('webpack-stream', errorMessage));
+        console.log(errorMessage);
       }
       if (!options.watch) {
         self.queue(null);

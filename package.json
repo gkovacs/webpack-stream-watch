@@ -1,14 +1,13 @@
 {
-  "name": "webpack-stream",
-  "version": "3.2.0",
+  "name": "webpack2-stream-watch",
+  "version": "3.2.2",
   "description": "Run webpack as a stream",
   "license": "MIT",
-  "homepage": "https://github.com/shama/webpack-stream",
-  "repository": "shama/webpack-stream",
+  "homepage": "https://github.com/gkovacs/webpack-stream-watch",
+  "repository": "gkovacs/webpack-stream-watch",
   "author": {
-    "name": "Kyle Robinson Young",
-    "email": "kyle@dontkry.com",
-    "url": "http://dontkry.com"
+    "name": "Geza Kovacs",
+    "url": "http://www.gkovacs.com"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -32,7 +31,7 @@
     "memory-fs": "^0.3.0",
     "through": "^2.3.8",
     "vinyl": "^1.1.0",
-    "webpack": "^1.12.9"
+    "webpack": "^2.2.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
