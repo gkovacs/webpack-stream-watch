@@ -1,6 +1,6 @@
 {
-  "name": "webpack2-stream-watch",
-  "version": "3.2.2",
+  "name": "webpack4-stream-watch",
+  "version": "3.2.3",
   "description": "Run webpack as a stream",
   "license": "MIT",
   "homepage": "https://github.com/gkovacs/webpack-stream-watch",
@@ -31,7 +31,7 @@
     "memory-fs": "^0.3.0",
     "through": "^2.3.8",
     "vinyl": "^1.1.0",
-    "webpack": "^2.2.0"
+    "webpack": "^4.16.5"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
